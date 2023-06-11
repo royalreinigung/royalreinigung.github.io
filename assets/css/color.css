@@ -1,0 +1,196 @@
+/* ==========================================================================================
+  Theme Name: Clean World
+  Author: Slide sigma
+  Description: Cleaning Service PSD Template
+  Version: 1.0
+========================================================================================== */
+
+
+/*-------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Color black
+    2. Color light white
+    3. Color blue
+    4. Bg black
+    5. Bg blue
+    6. Bg light white
+    7. Border blue
+    8. Border black
+    9. Border light white
+
+-------------------------------------------------------*/
+
+
+/* ....................................
+1. Color black
+.......................................*/
+
+
+
+/* ....................................
+2. Color light white
+.......................................*/
+
+.light-white {
+    color: #eef4f8;
+}
+
+
+/*shadow blue*/
+
+.shadow-blue,
+.testimonial-quote .quote-blue {
+    text-shadow: 0 4px 8px rgba(41, 137, 216, 0.5);
+}
+
+
+/* ....................................
+4. Bg black
+.......................................*/
+
+.btn-black {
+    background: #131b23;
+}
+
+
+/*black bg opacity classes*/
+
+.bg-black-op-9 {
+    background: rgba(19, 27, 35, 0.9);
+}
+
+.bg-black-op-8 {
+    background: rgba(19, 27, 35, 0.8);
+}
+
+.bg-black-op-7 {
+    background: rgba(19, 27, 35, 0.7);
+}
+
+.bg-black-op-6 {
+    background: rgba(19, 27, 35, 0.6);
+}
+
+.bg-black-op-5 {
+    background: rgba(19, 27, 35, 0.5);
+}
+
+.bg-black-op-4 {
+    background: rgba(19, 27, 35, 0.4);
+}
+
+.bg-black-op-3 {
+    background: rgba(19, 27, 35, 0.3);
+}
+
+.bg-black-op-2 {
+    background: rgba(19, 27, 35, 0.2);
+}
+
+.bg-black-op-1 {
+    background: rgba(19, 27, 35, 0.1);
+}
+
+.bg-black-op-0 {
+    background: rgba(19, 27, 35, 0);
+}
+
+
+/* ....................................
+5. Bg blue
+.......................................*/
+
+.bg-blue  {
+    background: #2989d8;
+}
+
+
+/*shadow blue*/
+
+.btn-blue {
+    box-shadow: 0px 6px 10px -4px rgba(41, 137, 216, 0.53);
+}
+
+.shadow-blue {
+    box-shadow: 0 0px 13px 2px rgba(41, 137, 216, 0.48);
+}
+
+.btn-blue:hover {
+    box-shadow: 0px 11px 20px -4px rgba(41, 137, 216, 0.53);
+}
+
+.blob {
+    box-shadow: 0 0 0 0 rgb(41, 137, 216);
+    animation: pulse-blue 2s infinite;
+}
+
+@keyframes pulse-blue {
+    0% {
+        box-shadow: 0 0 0 0 rgba(41, 137, 216, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 30px rgba(41, 137, 216, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(41, 137, 216, 0);
+    }
+}
+
+@keyframes pulse-blue-small {
+    0% {
+        box-shadow: 0 0 0 0 rgba(41, 137, 216, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(41, 137, 216, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(41, 137, 216, 0);
+    }
+}
+
+
+/*border bottom*/
+
+.link-line,
+.cart-table thead tr th,
+.login-section .card {
+    border-bottom-color: #2989d8;
+}
+
+
+/*border left*/
+
+.link-line,
+.how-work-img:before,
+.servvice-link-list li a:hover:after,
+.servvice-link-list li.active a:after {
+    border-left-color: #2989d8;
+}
+
+
+/*border top*/
+
+.partner:hover .partner-logo:after {
+    border-top-color: #2989d8;
+}
+
+
+/* ....................................
+8. Border black
+.......................................*/
+
+.border-black {
+    border-color: #131b23;
+}
+
+
+/* ....................................
+9. Border light white
+.......................................*/
+
+.light-border {
+    border-color: #eef4f8;
+}
